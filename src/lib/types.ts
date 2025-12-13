@@ -32,7 +32,7 @@ export type Project = {
     links: string[];
 }
 
-export type ProjectTag = "Game" | "3D Design" | "Website" | "Coding" | "Group" | "Solo" | "Class" | "WIP"; 
+export type ProjectTag = "C#" | "Unity" | "C++" | "React" | "Astro" | "GitHub" | "OnShape" | "Blender" | "Group" | "Solo" | "Class" | "WIP"; 
 
 export type NavData = {
     ext: string;

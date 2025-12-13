@@ -30,7 +30,7 @@ function Overview() {
         <>
             <h2 id="overview" className="text-3xl mt-10">Overview</h2>
 
-            <p className="my-5">I am president of the Johns Hopkins Design Build Fly club, where we compete in the international annual Design Build Fly competition hosted by the AIAA. I joined in my sophomore year of college as a member, but have since been elected president at the end of last year. Last year, the club was revived after being inactive, which caused some issues regarding funding and experience. Despite these setbacks, we managed to place in the top 50% of the competition &mdash; even placing higher than teams with 20x our budget!</p>
+            <p className="my-5">I was president of the Johns Hopkins Design Build Fly club for the 2025 competition year. The team competes in the international annual Design Build Fly competition hosted by the AIAA. I joined in my sophomore year of college as a member, but have since been elected president after the 2024 competition. In 2022, the club was revived after being inactive, which caused some issues regarding funding and experience. Despite these setbacks, the team managed to place in the top 50% of the competition &mdash; even placing higher than teams with 20x our budget! Ever since, we&apos;ve been continually pushing for greater heights!</p>
 
             <p className="my-5">Below is a picture of the plane in parking configuration as well as the team members who went to the 2024 competition in Wichita, Kansas, with me holding the plane in the center.</p>
 
@@ -62,12 +62,12 @@ function Competition2025() {
         <>
             <h2 id="competition2025" className="text-3xl mt-10">Competition 2025</h2>
             
-            <p>This year, though the competition rules have only just been released, we have been hard at work. Over the summer I set up weekly meetings to discuss logistics on budgeting, financing, recruitment, materials, and design. Under my leadership, we have already <span className="font-semibold">over tripled our budget</span> and <span className="font-semibold">doubled our active member count</span>. We are ecstatic with the growth that has occured and are ready to take on the competition!</p>
+            <p>The summer leading up to competition year I set up weekly meetings to discuss logistics on budgeting, financing, recruitment, materials, and design. Under my leadership, we <span className="font-semibold">over quintupled our budget</span> and <span className="font-semibold">doubled our active member count</span>. We are ecstatic with the growth that has occured and are ready to take on the competition!</p>
 
             <Stats data={[
-                {label:"Budget", value:"$5,200"},
-                {label:"Members", value:"20"},
-                // {label:"Out of XXX Teams", value:"XX"},
+                {label:"Budget", value:"$8,000"},
+                {label:"Members", value:"15"},
+                {label:"Out of 159 Teams", value:"49th"},
                 {label:"Arizona", value:"Tuscon"}
             ]} />
         </>
@@ -86,7 +86,7 @@ function Competition2024() {
 
             <Stats data={[
                 {label:"Budget", value:"$1,500"},
-                {label:"Members", value:"9"},
+                {label:"Members", value:"7"},
                 {label:"Out of 149 Teams", value:"67th"},
                 {label:"Kansas", value:"Wichita"}
             ]} />

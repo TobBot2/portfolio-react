@@ -26,7 +26,7 @@ export default function Home() {
 				></Image>
 				<span className="m-4 mb-2 p-4 text-xl border-secondary border-solid border-2 rounded-xl bg-transparent backdrop-blur-sm -skew-x-[20deg]">
 					<p className="skew-x-[20deg] ml-4">
-						I&apos;m a Junior at Johns Hopkins University, studying Computer Science. My favorite hobby is working on my various projects, especially coding video games.
+						I&apos;m a senior at Johns Hopkins University, studying computer science. My favorite hobby is working on my various projects, especially coding video games.
 					</p>
 				</span>
 			</div>

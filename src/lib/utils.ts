@@ -26,16 +26,22 @@ export function useIsVisible(ref: any) {
 
 export function getProjectTagBorderColor(tag: ProjectTag) {
 	switch (tag) {
-		case "Game":
-			return "border-[darkorange]";
-		case "3D Design":
+		case "C++":
 			return "border-[grey]";
-		case "Website":
+		case "Unity":
 			return "border-[dodgerblue]";
-		case "Coding":
-			return "border-[limegreen]";
-		case "Group":
-			return "border-[mediumslateblue]";
+		case "React":
+			return "border-[dodgerblue]";
+		case "C#":
+			return "border-[grey]";
+		case "Python":
+      return "border-[grey]";
+    case "Blender":
+      return "border-[forestgreen]";
+    case "OnShape":
+      return "border-[forestgreen]";
+    case "Group":
+			return "border-[crimson]";
 		case "Solo":
 			return "border-[crimson]";
 		case "Class":

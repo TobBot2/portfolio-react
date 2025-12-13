@@ -30,6 +30,20 @@ export const contactLinks: ContactData[] = [
 
 export const jobs: Job[] = [
     {
+        slug: "ibkr",
+        title: "Software Development Intern",
+        company: "Interactive Brokers",
+        location: "Greenwich, CT",
+        start_date: new Date(2025, 6, 1),
+        end_date: new Date(2024, 8, 9),
+        description: [
+            "Improved Spring-based event signaling system; streamlined and modernized old code and design patterns.",
+            "Reduced system’s memory usage by over 90% with my new custom Redis cache system I implemented.",
+            "Cache now updates instantly; removed need for slow 5-minute cache refreshes that caused stale data usage.",
+            "Optimized Kafka message consumer from 2 million to 5 million messages processed per minute.",
+        ]
+    },
+    {
         slug: "idtech",
         title: "Camp Instructor",
         company: "iD Tech",
@@ -90,7 +104,7 @@ export const featuredProjectMetadata: FeaturedProject = {
     thumbnail: "/projects/cppgameengine/TailSmashThumbnail.png",
     img1: "/projects/cppgameengine/TailSmashAsteroids.png",
     tags: [
-        "Coding", "Game", "Solo",
+        "C++", "GitHub", "Solo",
     ],
     links: [
         "tobbot2.itch.io/tail-smash",
@@ -106,7 +120,7 @@ export const projectsMetadata: Project[] = [
         description: "Game I created only using C++ and the SFML library for rendering and audio.",
         thumbnail: "/projects/cppgameengine/TailSmashThumbnail.png",
         tags: [
-            "Coding", "Game", "Solo",
+            "C++", "GitHub", "Solo",
         ],
         links: [
             "tobbot2.itch.io/tail-smash",
@@ -120,7 +134,7 @@ export const projectsMetadata: Project[] = [
         description: "RC plane made by the club I am president of (Design Build Fly).",
         thumbnail: "/projects/dbfplane/thumbnail.jpg",
         tags: [
-            "Group", "3D Design"
+            "Group", "OnShape"
         ],
         links: [
             "https://jhu-dbf-website.pages.dev/" // TODO (probably needs updating when we publish it?) 
@@ -133,7 +147,7 @@ export const projectsMetadata: Project[] = [
         description: "Website I made using React, NextJS, and Shadcn.",
         thumbnail: "/projects/portfoliosite/homepage.png",
         tags: [
-            "Coding", "Solo", "Website"
+            "React", "Solo", "GitHub"
         ],
         links: [
             "github.com/tobbot2/portfolio-react",
@@ -146,10 +160,10 @@ export const projectsMetadata: Project[] = [
         description: "Collection of video games I created in separate game jam events using Unity (C#).",
         thumbnail: "/projects/gamejams/thumbnail.png",
         tags: [
-            "Coding", "Game", "Group"
+            "Unity", "C#", "Group"
         ],
         links: [
-            "tobbot2.itch.io", // TODO
+            "tobbot2.itch.io", //TODO replace with links to each game
         ]
     },
     {
@@ -159,7 +173,7 @@ export const projectsMetadata: Project[] = [
         description: "Website I led the creation of for the club I am president of (Design Build Fly).",
         thumbnail: "/projects/dbfsite/homepage.jpg",
         tags: [
-            "Group", "Coding", "Website"
+            "Astro", "GitHub", "Group"
         ],
         links: [
             "https://jhu-dbf-website.pages.dev/" // TODO (probably needs updating when we publish it?)
@@ -172,7 +186,7 @@ export const projectsMetadata: Project[] = [
         description: "Wooden lasercut map of Manhattan with LEDs where the subway lines are.",
         thumbnail: "/projects/manhattanmap/thumbnail.jpg",
         tags: [
-            "Coding", "3D Design", "Solo", "WIP"
+            "Python", "OnShape", "GitHub", "Solo", "WIP"
         ],
         links: [
             "github.com/tobbot2/manhattanmap"
@@ -199,7 +213,7 @@ export const projectsMetadata: Project[] = [
         description: "3D Model created in Blender with heavy research in Romanesque architecture.",
         thumbnail: "/projects/cathedral/Classic.png",
         tags: [
-            "3D Design", "Solo"
+            "Blender", "Solo"
         ],
         links: [
             "thingiverse.com", // TODO
@@ -212,7 +226,7 @@ export const projectsMetadata: Project[] = [
         description: "3D Models and renders created in Blender I have made by myself over the years.",
         thumbnail: "/projects/3dmodeling/bluejaycampsite.png",
         tags: [
-            "3D Design", "Solo"
+            "Blender", "Solo"
         ],
         links: [
             "thingiverse.com", // TODO
